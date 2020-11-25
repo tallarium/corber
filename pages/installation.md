@@ -39,7 +39,7 @@ This process will:
 |             | type / desc                       |
 |------------ | ----------------------------------|
 | name        | String (defaults to your app name) |
-| cordovaid   | String (defaults to com.embercordova.{{yourEmberAppName}}) |
+| cordovaid   | String (defaults to io.corber.yourAppName) |
 | templatePath| String path to cordova template |
 
 ```cli
@@ -47,7 +47,7 @@ corber init new-android-project --name=AppName --cordovaid=com.isleofcode.app --
 ```
 **cordovaid flag**
 
-com.embercordova.yourAppName is the default cordovaid, which ultimately represents your iOS and Android project ids. Android projects _require_ reverse domain app ids.
+io.corber.yourAppName is the default cordovaid, which ultimately represents your iOS and Android project ids. Android projects _require_ reverse domain app ids.
 
 By release, you should update id to com.yourdomain.foo. This is achieved by setting the `id` property on the `widget` node in the `corber/cordova/config.xml`.
 
