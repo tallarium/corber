@@ -40,8 +40,8 @@ Identifies your project type, create a new folder at `corber` including Corber c
 
 |             | type / desc                       |
 |------------ | ----------------------------------|
-| name        | String (defaults to com.embercordova.{{yourEmberAppName}}) |
-| cordovaid   | String (defaults to your app name) |
+| name        | String (defaults to your app name) |
+| cordovaid   | String (defaults to com.embercordova.{{yourEmberAppName}}) |
 | templatePath| String path to cordova template |
 
 ### Examples
