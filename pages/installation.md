@@ -35,12 +35,11 @@ This process will:
 
 ###### corber init flags
 
-
-|             | type / desc                       |
-|------------ | ----------------------------------|
-| name        | String (defaults to your app name) |
-| cordovaid   | String (defaults to io.corber.yourAppName) |
-| templatePath| String path to cordova template |
+| Options     | default   | desc |
+|------------ |---------- | ---- |
+| name        | your app name | |
+| cordovaid   | io.corber.yourAppName | |
+| templatePath| | path to cordova template |
 
 ```cli
 corber init new-android-project --name=AppName --cordovaid=com.isleofcode.app --templatePath=../template

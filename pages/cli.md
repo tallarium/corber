@@ -38,11 +38,11 @@ reloadUrl: 'http://mycomputer:4200'
 
 Identifies your project type, create a new folder at `corber` including Corber configuration, and initializes a Cordova project at `corber/cordova`.
 
-|             | type / desc                       |
-|------------ | ----------------------------------|
-| name        | String (defaults to your app name) |
-| cordovaid   | String (defaults to io.corber.yourAppName) |
-| templatePath| String path to cordova template |
+| Options     | default   | desc |
+|------------ |---------- | ---- |
+| name        | your app name | |
+| cordovaid   | io.corber.yourAppName | |
+| templatePath| | path to cordova template |
 
 ### Examples
 + `corber init new-android-project --name=AppName --cordovaid=com.isleofcode.app --templatePath=../template`
