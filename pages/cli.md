@@ -42,10 +42,10 @@ Identifies your project type, create a new folder at `corber` including Corber c
 |------------ |---------- | ---- |
 | name        | your app name | |
 | cordovaid   | io.corber.yourAppName | |
-| templatePath| | path to cordova template |
+| template-path| | path to cordova template |
 
 ### Examples
-+ `corber init new-android-project --name=AppName --cordovaid=com.isleofcode.app --templatePath=../template`
++ `corber init new-android-project --name=AppName --cordovaid=com.isleofcode.app --template-path=../template`
 
 ### cordovaid flag
 
