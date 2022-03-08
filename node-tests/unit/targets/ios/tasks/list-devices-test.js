@@ -3,7 +3,7 @@ const expect          = require('../../../../helpers/expect');
 const Device          = require('../../../../../lib/objects/device');
 const Promise         = require('rsvp').Promise;
 
-const spawnArgs       = ['/usr/bin/xctrace', ['list', 'devices']];
+const spawnArgs       = ['/usr/bin/xcrun', ['xctrace', 'list', 'devices']];
 
 //yes - isleofcode.com is my actual device name
 //(turn on the hotspot and be branding all conference long!)
